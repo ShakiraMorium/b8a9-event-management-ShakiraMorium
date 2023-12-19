@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Elegant Occasions",
+        "image": "https://example.com/elegant_occasions.jpg",
+        "details": "Specializing in luxurious and classic wedding designs.",
+        "rating": 4.8,
+        "price": 5000
+    },
+    {
+        "id": 2,
+        "name": "Blissful Events Planning",
+        "image": "https://example.com/blissful_events.jpg",
+        "details": "Creating unforgettable weddings with a touch of modern flair.",
+        "rating": 4.5,
+        "price": 4500
+    },
+    {
+        "id": 3,
+        "name": "Cherished Moments",
+        "image": "https://example.com/cherished_moments.jpg",
+        "details": "Personalized wedding experiences tailored to your dreams.",
+        "rating": 4.9,
+        "price": 5500
+    },
+    {
+        "id": 4,
+        "name": "Dreamy Affairs",
+        "image": "https://example.com/dreamy_affairs.jpg",
+        "details": "Crafting magical weddings with attention to every detail.",
+        "rating": 4.7,
+        "price": 4800
+    },
+    {
+        "id": 5,
+        "name": "Love & Lace Weddings",
+        "image": "https://example.com/love_and_lace.jpg",
+        "details": "Specializing in romantic and whimsical wedding themes.",
+        "rating": 4.6,
+        "price": 5200
+    },
+    {
+        "id": 6,
+        "name": "Majestic Celebrations",
+        "image": "https://example.com/majestic_celebrations.jpg",
+        "details": "Creating grand and opulent wedding experiences.",
+        "rating": 4.8,
+        "price": 5800
+    },
+    {
+        "id": 7,
+        "name": "Royal Knots Weddings",
+        "image": "https://example.com/royal_knots.jpg",
+        "details": "Regal weddings fit for a king and queen.",
+        "rating": 4.9,
+        "price": 6000
+    },
+    {
+        "id": 8,
+        "name": "Enchanted Elegance",
+        "image": "https://example.com/enchanted_elegance.jpg",
+        "details": "Creating enchanting and ethereal wedding settings.",
+        "rating": 4.7,
+        "price": 5300
+    },
+    {
+        "id": 9,
+        "name": "Fairy Tale Weddings",
+        "image": "https://example.com/fairy_tale_weddings.jpg",
+        "details": "Turning your wedding dreams into a fairy tale reality.",
+        "rating": 4.5,
+        "price": 5100
+    },
+    {
+        "id": 10,
+        "name": "Golden Moments Events",
+        "image": "https://example.com/golden_moments.jpg",
+        "details": "Crafting weddings that shimmer with elegance.",
+        "rating": 4.6,
+        "price": 5400
+    },
+    {
+        "id": 11,
+        "name": "Harmony Weddings",
+        "image": "https://example.com/harmony_weddings.jpg",
+        "details": "Bringing harmony and joy to your special day.",
+        "rating": 4.8,
+        "price": 5600
+    },
+    {
+        "id": 12,
+        "name": "Infinite Love Events",
+        "image": "https://example.com/infinite_love.jpg",
+        "details": "Creating everlasting memories with infinite love.",
+        "rating": 4.9,
+        "price": 5900
+    }
+]
