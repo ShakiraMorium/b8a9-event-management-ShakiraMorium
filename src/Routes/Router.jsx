@@ -10,6 +10,7 @@ import Register from "../Pages/Shared/Register/Register";
 
 import Home from "../Pages/Home/Home";
 import Gallery from "../Pages/Gallery/Gallery";
+import Footer from "../Pages/Footer/Footer";
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
                 path:'/register',
                 element:<Register></Register>
             },
+            {
+                path:'/footer',
+                element:<Footer></Footer>
+            }
         ]
     }
 ]);
