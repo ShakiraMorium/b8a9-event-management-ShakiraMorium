@@ -11,6 +11,7 @@ import Register from "../Pages/Shared/Register/Register";
 import Home from "../Pages/Home/Home";
 import Gallery from "../Pages/Gallery/Gallery";
 import Footer from "../Pages/Footer/Footer";
+import PrivateRoute from "./PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
             {
                 path:'/',
                 element:<Home></Home>,
-                loader:()=>fetch('event.json')
+                loader:()=>fetch('/event.json')
             },
         
             {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'/gallery',
-                element:<Gallery></Gallery>
+                element:<PrivateRoute><Gallery></Gallery></PrivateRoute>
             },
             {
                 path:'/login',

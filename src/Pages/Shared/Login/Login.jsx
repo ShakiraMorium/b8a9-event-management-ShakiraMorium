@@ -10,6 +10,7 @@ import { FaFacebook } from "react-icons/fa6";
 const Login = () => {
     const {signIn} = useContext(AuthContext)
     const { googleSignIn } = useContext(AuthContext);
+    const {facebookSignIn} = useContext(AuthContext);
 
 
     const handleLogin = (e) => {
@@ -27,6 +28,11 @@ const Login = () => {
 
         const handleGoogle = () => {
             googleSignIn()
+            .then(result => {console.log(result.user)})
+            .catch(error => {console.error(error)})
+    }
+        const handleFacebook = () => {
+           facebookSignIn()
             .then(result => {console.log(result.user)})
             .catch(error => {console.error(error)})
     }
@@ -61,7 +67,7 @@ const Login = () => {
                             </div>
                             <div className="form-control mt-6">
                                 <button onClick={handleGoogle} className="btn bg-red-200 text-slate-600"> <FcGoogle className="text-2xl" />Google Login </button>
-                                <button  className="btn bg-red-200 text-slate-600"> <FaFacebook className="text-2xl"/>Facebook Login </button>
+                                <button onClick={handleFacebook} className="btn bg-red-200 text-slate-600"> <FaFacebook className="text-2xl"/>Facebook Login </button>
                             </div>
                         </form>
                         <p className="text-center mb-4">Do not have an account? <Link className="text-red-400 font-bold" to="/register">Register</Link></p>
