@@ -1,5 +1,5 @@
-import image from '../../assets/aboutus.jpg'
-import Navbar from '../Shared/Navbar/Navbar';
+import image from '../../assets/venue-1.jpg';
+
 
 
 const About = () => {

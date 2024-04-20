@@ -9,6 +9,7 @@ import Footer from "../Footer/Footer";
 
 
 
+
 const Home = () => {
     const galleries = useLoaderData();
     console.log(galleries)
